@@ -6,7 +6,6 @@ const App = () => {
 
   return (
     <div>
-      <h4>Список пользователей</h4>
       <FilterInput value={filter} onChange={setFilter} />
       <UserList users={filteredUsers} />
     </div>
